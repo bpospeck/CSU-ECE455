@@ -1,0 +1,9 @@
+animate <robot> [<angles>] : Displays a three dimensional animation of a robot
+ 
+Inputs:
+<robot>.dh : Denavit and Hartenberg parameter of robot
+<robot>.pp : point-polygon file describing robot
+<robot>.pov : viewing paramters (eyepoint, center of interest, view angle) for each frame (or will repeat last set)
+ 
+<angles> : robot joint angles for each frame of animation
+           (uses <robot>.ang if second filename not specified on command line)
