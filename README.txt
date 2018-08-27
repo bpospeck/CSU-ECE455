@@ -5,6 +5,6 @@ and the files needed for testing and running the code. I will provide a brief de
 
 1) We were given key frames and positions for a robot and needed to interpolate the points between those key frames for a specified number of frames to create enough points for a relatively smooth animation
 
-2) We needed to generate the joint angles required to move a planar, n-link robot so the robot's hand follows a specified trajectory. This required calculating jacobians and performing forward and inverse kinematics.
+2) We needed to generate the joint angles required to move a planar, n-link robot so the robot's hand follows a specified trajectory. This required calculating jacobians and performing forward and inverse kinematics. Damped Least Squares was the method used to obtain the final joint angles necessary for each joint of the robot.
 
 Both projects were done in Matlab and required generalized solutions so it could handle different amounts of frames and robot joints.
